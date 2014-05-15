@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>{+title}7th-Degree{/title}</title>
+    <script type="text/javascript" src='/javascripts/utils.js'></script>
+    <link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
+    {+http_header/}
+</head>
+<body>
+  <div class="title">{title}</div>
+  {?username}
+    <div class="user_greeting"> Hello {username}!
+  {:else}
+      You are not wookets, what is the meaning of this nonsense!
+  {/username}
+</body>
+</html>
